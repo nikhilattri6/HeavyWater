@@ -19,4 +19,4 @@ Approached this Problem with Random Forest, SVM, Naive Bayes, LogisticRegression
 
 
 
-Used Random Classification Model trained on 70% of the data resulting in 87% effeciency.
+Then used Random Classification Model with Best Paramaters, resulting in 87% effeciency.
