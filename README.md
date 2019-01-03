@@ -43,10 +43,10 @@ This step consists of the following steps :-
 -  Launch your instance
 -  Create a key pair and make sure to save it somewhere safe. You won’t be able to replace it.
 -  Now Finally launch the instance!
-- 
+
 ![enter image description here](https://lh3.googleusercontent.com/5AMjNNFb1sDLJukIUreqUuw1GH48oQDHnriyOa9-SkRLqsiXZd6In_42kZoxsE2xS6qA7CHiAQ3u "Instance Launched")
 
-# Steps to Deploy the flask Application
+# Steps to Deploy the Flask Application
 
 ## Step 1 - Connect to your EC2 instance
 - Open a terminal session in the directory where you have saved the key pair. 
