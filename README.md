@@ -60,11 +60,11 @@ This step consists of the following steps :-
 ## Step 2 - Setup Python3 Environment
 - Python3 (3.5 at the time of writing) should be already available on EC2 but pip still needs to be installed.
 -  Setup Flask
-- Get Environment
+- Get Environment by running following commands
 > **Command:** 
 > $ sudo apt-get install python3-pip
 > $ pip3 install virtualenv
-> $ pip install Flask
+> $ pip3 install Flask
 
 ## Step 3 - Uploading Files to EC2 Instance
 - I have used FileZilla to upload the relevant files
@@ -100,3 +100,15 @@ This step consists of the following steps :-
 -You can drop any test.csv file to classify the documents.
 
 ![enter image description here](https://lh3.googleusercontent.com/mYtLgbtHdIWgcqLXVg5U9OIMaZRdjsByFi3rHy9dljy4mWXs4V5FzfF5OrqufD9qQYVABWSF4FIc "Final Website")
+
+
+# Steps to test this Application
+ ## Go to TestingApplication Folder
+- Install all the Requirements given in requirements.txt
+>$ pip install -r requirements.txt
+- Export the base url of the webservice
+>$ export BASE_URL=http://ec2-18-218-201-44.us-east-2.compute.amazonaws.com/api/text_class_no_params
+- Run Python Script testing_application.py
+>$ python testing_application.py
+
+![enter image description here](https://lh3.googleusercontent.com/pBk6moocLM3AdywD_xfnMVPniiiMUN8SmhfxJjEP3HtCh9bOsudt9e5VW8vST7yQr0NGKWmhAkN7 "Testing Terminal")
